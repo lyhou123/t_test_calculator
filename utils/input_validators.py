@@ -14,6 +14,7 @@ def get_positive_int(prompt):
         except ValueError:
             print("Please enter a valid integer.")
 
+
 def get_positive_float(prompt):
     """Get a positive float from user input with validation."""
     while True:
@@ -26,6 +27,7 @@ def get_positive_float(prompt):
         except ValueError:
             print("Please enter a valid number.")
 
+
 def get_float(prompt):
     """Get any float from user input with validation."""
     while True:
@@ -33,6 +35,7 @@ def get_float(prompt):
             return float(input(prompt))
         except ValueError:
             print("Please enter a valid number.")
+
 
 def get_test_type():
     """Get test type with validation."""
