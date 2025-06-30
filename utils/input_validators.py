@@ -53,6 +53,7 @@ def get_direction():
             return direction
         print("Please enter 'greater' or 'less'.")
 
+        
 def get_alpha_level():
     """Get significance level with validation."""
     while True:
